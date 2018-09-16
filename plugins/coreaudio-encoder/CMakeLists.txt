@@ -26,7 +26,7 @@ else()
 		${AUDIOTOOLBOX})
 endif()
 
-add_library(coreaudio-encoder MODULE
+add_library(coreaudio-encoder STATIC
 	${coreaudio-encoder_SOURCES}
 	${coreaudio-encoder_HEADERS})
 
@@ -34,4 +34,4 @@ target_link_libraries(coreaudio-encoder
 	libobs
 	${coreaudio-encoder_LIBS})
 
-install_obs_plugin_with_data(coreaudio-encoder data)
+#install_obs_plugin_with_data(coreaudio-encoder data)

@@ -30,6 +30,6 @@ target_link_libraries(obs-ffmpeg
 	${obs-ffmpeg_PLATFORM_DEPS}
 	${FFMPEG_LIBRARIES})
 
-install_obs_plugin_with_data(obs-ffmpeg data)
+#install_obs_plugin_with_data(obs-ffmpeg data)
 
 add_subdirectory(ffmpeg-mux)

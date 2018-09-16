@@ -25,4 +25,4 @@ target_link_libraries(obs-libfdk
 	libobs
 	${LIBFDK_LIBRARIES})
 
-install_obs_plugin_with_data(obs-libfdk data)
+#install_obs_plugin_with_data(obs-libfdk data)

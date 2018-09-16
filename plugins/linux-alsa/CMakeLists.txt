@@ -23,7 +23,7 @@ set(linux-alsa_SOURCES
 	alsa-input.c
 )
 
-add_library(linux-alsa MODULE
+add_library(linux-alsa STATIC
 	${linux-alsa_SOURCES}
 )
 target_link_libraries(linux-alsa
@@ -31,4 +31,4 @@ target_link_libraries(linux-alsa
 	${ALSA_LIBRARY}
 )
 
-install_obs_plugin_with_data(linux-alsa data)
+#install_obs_plugin_with_data(linux-alsa data)

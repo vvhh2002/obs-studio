@@ -23,4 +23,4 @@ if(WIN32)
 			OUTPUT_NAME "ffmpeg-mux${_output_suffix}")
 endif()
 
-install_obs_datatarget(ffmpeg-mux "obs-plugins/obs-ffmpeg")
+#install_obs_datatarget(ffmpeg-mux "obs-plugins/obs-ffmpeg")

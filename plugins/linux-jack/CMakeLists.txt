@@ -32,4 +32,4 @@ target_link_libraries(linux-jack
 	${JACK_LIBRARIES}
 )
 
-install_obs_plugin_with_data(linux-jack data)
+#install_obs_plugin_with_data(linux-jack data)

@@ -55,4 +55,4 @@ target_link_libraries(mac-decklink
 	libobs
 	${COREFOUNDATION})
 
-install_obs_plugin_with_data(mac-decklink ../data)
+#install_obs_plugin_with_data(mac-decklink ../data)

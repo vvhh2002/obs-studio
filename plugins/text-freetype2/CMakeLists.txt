@@ -85,4 +85,4 @@ if(APPLE AND ICONV_FOUND)
 	target_link_libraries(text-freetype2 ${ICONV_LIBRARIES})
 endif()
 
-install_obs_plugin_with_data(text-freetype2 data)
+#install_obs_plugin_with_data(text-freetype2 data)

@@ -445,7 +445,7 @@ if(BUILD_CAPTIONS)
 		caption)
 endif()
 
-add_library(libobs SHARED ${libobs_SOURCES} ${libobs_HEADERS})
+add_library(libobs STATIC ${libobs_SOURCES} ${libobs_HEADERS})
 
 set_target_properties(libobs PROPERTIES
 	OUTPUT_NAME obs
@@ -482,8 +482,8 @@ target_link_libraries(libobs
 	PUBLIC
 		${THREADS_LIBRARIES})
 
-install_obs_core(libobs EXPORT LibObs)
-install_obs_data(libobs data libobs)
-install_obs_headers(${libobs_HEADERS})
+#install_obs_core(libobs EXPORT LibObs)
+#install_obs_data(libobs data libobs)
+#install_obs_headers(${libobs_HEADERS})
 
-obs_install_additional(libobs)
+#obs_install_additional(libobs)

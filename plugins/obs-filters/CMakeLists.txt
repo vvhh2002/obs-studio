@@ -60,4 +60,4 @@ target_link_libraries(obs-filters
 	${obs-filters_PLATFORM_DEPS}
 	${obs-filters_LIBSPEEXDSP_LIBRARIES})
 
-install_obs_plugin_with_data(obs-filters data)
+#install_obs_plugin_with_data(obs-filters data)

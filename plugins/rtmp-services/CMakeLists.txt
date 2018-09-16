@@ -37,4 +37,4 @@ target_include_directories(rtmp-services
 	PUBLIC
 		"$<BUILD_INTERFACE:${CMAKE_BINARY_DIR}/plugins/rtmp-services>")
 
-install_obs_plugin_with_data(rtmp-services data)
+#install_obs_plugin_with_data(rtmp-services data)

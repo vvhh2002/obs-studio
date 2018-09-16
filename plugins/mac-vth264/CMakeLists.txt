@@ -29,4 +29,4 @@ target_link_libraries(mac-vth264
 	${VIDEOTOOLBOX}
 	${COREMEDIA})
 
-install_obs_plugin_with_data(mac-vth264 data)
+#install_obs_plugin_with_data(mac-vth264 data)

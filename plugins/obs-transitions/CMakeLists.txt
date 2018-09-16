@@ -16,4 +16,4 @@ add_library(obs-transitions MODULE
 target_link_libraries(obs-transitions
 	libobs)
 
-install_obs_plugin_with_data(obs-transitions data)
+#install_obs_plugin_with_data(obs-transitions data)

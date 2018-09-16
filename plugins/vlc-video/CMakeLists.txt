@@ -38,4 +38,4 @@ target_link_libraries(vlc-video
 	libobs
 	${vlc-video_PLATFORM_DEPS})
 
-install_obs_plugin_with_data(vlc-video data)
+#install_obs_plugin_with_data(vlc-video data)

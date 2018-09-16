@@ -30,7 +30,7 @@ set_source_files_properties(mac-display-capture.m
 			    window-utils.m
 	PROPERTIES LANGUAGE C)
 
-add_library(mac-capture MODULE
+add_library(mac-capture STATIC
 	${mac-capture_SOURCES}
 	${mac-capture_HEADERS})
 target_link_libraries(mac-capture
@@ -41,4 +41,4 @@ target_link_libraries(mac-capture
 	${IOSURF}
 	${COCOA})
 
-install_obs_plugin_with_data(mac-capture data)
+#install_obs_plugin_with_data(mac-capture data)

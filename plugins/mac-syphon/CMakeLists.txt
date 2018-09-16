@@ -81,4 +81,4 @@ target_link_libraries(mac-syphon
 	${SCRIPTINGBRIDGE}
 	${OPENGL_gl_LIBRARY})
 
-install_obs_plugin_with_data(mac-syphon data)
+#install_obs_plugin_with_data(mac-syphon data)

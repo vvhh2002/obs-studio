@@ -169,4 +169,4 @@ target_link_libraries(obs-outputs
 	${ftl_IMPORTS}
 	${obs-outputs_PLATFORM_DEPS})
 
-install_obs_plugin_with_data(obs-outputs data)
+#install_obs_plugin_with_data(obs-outputs data)
